@@ -22,12 +22,19 @@ AppBar customAppBarwithTitle({
     elevation: 0,
     leading: GestureDetector(
         onTap: onTapDrawer,
-        child: Image.asset(
-          AssetPaths.MENU_ICON_APPBAR,
+        child: Icon(
+          Icons.menu,
           color: AppColors.BLACK_COLOR,
-          width: 20.w,
-          height: 20.h,
-        )),
+          size: 24.w,
+        )
+        // Image.asset(
+        //   AssetPaths.MENU_ICON_APPBAR,
+        //   color: AppColors.BLACK_COLOR,
+        //   width: 20.w,
+        //   height: 20.h,
+        // )
+
+        ),
     title: Text(
       // 'Customer Details',
       text,
@@ -105,12 +112,20 @@ AppBar customAppBarwithSearchTextfield({
     elevation: 0,
     leading: GestureDetector(
         onTap: onTapDrawer,
-        child: Image.asset(
-          AssetPaths.MENU_ICON_APPBAR2,
+        child: Icon(
+          Icons.menu,
           color: AppColors.BLACK_COLOR,
-          width: 10.w,
-          height: 10.h,
-        )),
+          size: 24.w,
+        )
+
+        //  Image.asset(
+        //   AssetPaths.MENU_ICON_APPBAR2,
+        //   color: AppColors.BLACK_COLOR,
+        //   width: 10.w,
+        //   height: 10.h,
+        // )
+
+        ),
     title: searchTextField(
       searchController: searchController,
       onSearchSubmitted: onSearchSubmitted,

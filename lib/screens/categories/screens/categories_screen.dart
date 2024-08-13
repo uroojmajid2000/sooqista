@@ -134,26 +134,26 @@ class _CategoryScreenState extends State<CategoryScreen>
             SizedBox(
               height: 25.h,
             ),
-            SizedBox(
-              height: 100.h,
-              child: ListView.builder(
-                scrollDirection: Axis.horizontal,
-                itemCount: 8,
-                itemBuilder: (context, index) {
-                  return Row(
-                    children: [
-                      CategoriesContainer(
-                        image: AssetPaths.TSHIRT_IMAGE_CIRCULAR,
-                        name: 'T-Shirts',
-                      ),
-                      SizedBox(
-                        width: 33.w,
-                      ),
-                    ],
-                  );
-                },
-              ),
-            ),
+            // SizedBox(
+            //   height: 100.h,
+            //   child: ListView.builder(
+            //     scrollDirection: Axis.horizontal,
+            //     itemCount: 8,
+            //     itemBuilder: (context, index) {
+            //       return Row(
+            //         children: [
+            //           CategoriesContainer(
+            //             image: AssetPaths.TSHIRT_IMAGE_CIRCULAR,
+            //             name: 'T-Shirts',
+            //           ),
+            //           SizedBox(
+            //             width: 33.w,
+            //           ),
+            //         ],
+            //       );
+            //     },
+            //   ),
+            // ),
             SizedBox(
               height: 25.h,
             ),

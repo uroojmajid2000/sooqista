@@ -110,10 +110,9 @@ class _MyorderScreenState extends State<MyorderScreen> {
 }
 
 
-
- // const EmptyDataFound(
-            //   imageIcon: AssetPaths.EMPTY_FAVICON_IMAGES,
-            //   name: 'Empty WishList',
-            //   detail: 'There are nothing in the wishlist yet.',
-            //   tryNew: 'Start purchase some products...',
-            // ),
+      //     const EmptyDataFound(
+      //   imageIcon: AssetPaths.EMPTYORDERS_IMAGES,
+      //   name: 'No Orders',
+      //   detail: 'There are no order history yet.',
+      //   tryNew: 'Start purchase some products...',
+      // ),

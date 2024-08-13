@@ -6,7 +6,10 @@ class AssetPaths {
 
   static const String BG_SPLASH_SCREEN = "$IMAGES/Splash.png";
   static const String SPLASH_LOGO = "$LOGOS/sooqista_logo.png";
+  // static const String SPLASH_LOGO = "$LOGOS/ebuying_logo.png";
+  // static const String SPLASH_LOGO = "$LOGOS/ebuy_logo2.png";
   static const String ONBOARDING_SCREEN = "$IMAGES/onboarding.png";
+  // static const String ONBOARDING_SCREEN = "$IMAGES/onboardingimg.png";
 
   //Bottom Navigation Icons
   static const String HOME_ICON_BOTTOM_NAVIGAITON = "$ICONS/Home.png";
@@ -30,6 +33,7 @@ class AssetPaths {
   static const String MENU_ICON_APPBAR = "$ICONS/Menu_icon.png";
   static const String MENU_ICON_APPBAR2 = "$ICONS/Menu.png";
   static const String HWISH_ICON_APPBAR = "$ICONS/Wishlist_icon.png";
+  static const String HWISH_ICON_FILL_APPBAR = "$ICONS/fillwish_icon.png";
   static const String GLOBE_ICON_SEARCHBAR = "$ICONS/Globe_icon.png";
 
   //home screen

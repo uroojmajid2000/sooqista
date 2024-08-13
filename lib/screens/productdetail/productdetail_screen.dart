@@ -308,7 +308,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                   onTap: () {},
                   child: Container(
                     width: double.infinity,
-                    height: 30.h,
+                    height: 50.h,
                     decoration: ShapeDecoration(
                       color: AppColors.PRIMARY_COLOR,
                       shape: RoundedRectangleBorder(
@@ -321,8 +321,8 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                         Image.asset(
                           AssetPaths.CART_ICON_BOTTOM_NAVIGAITON,
                           color: AppColors.WHITE_COLOR,
-                          width: 20.w,
-                          height: 16.h,
+                          width: 25.w,
+                          height: 25.h,
                         ),
                         SizedBox(
                           width: 5.w,
@@ -331,7 +331,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                           'Add To Cart',
                           style: TextStyle(
                             color: AppColors.WHITE_COLOR,
-                            fontSize: 10.sp,
+                            fontSize: 16.sp,
                             fontFamily: AppFonts.interSemiBold,
                             fontWeight: FontWeight.w600,
                           ),

@@ -43,8 +43,10 @@ class _WishlistScreenState extends State<WishlistScreen> {
               child: GestureDetector(
                   onTap: () {},
                   child: Image.asset(
-                    AssetPaths.HWISH_ICON_APPBAR,
-                    color: AppColors.BLACK_COLOR,
+                    // AssetPaths.HWISH_ICON_APPBAR,
+                    AssetPaths.HWISH_ICON_FILL_APPBAR,
+
+                    color: AppColors.PRIMARY_COLOR,
                     width: 24.w,
                     height: 24.h,
                   )),

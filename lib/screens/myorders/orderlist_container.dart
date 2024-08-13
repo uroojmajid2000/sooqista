@@ -103,6 +103,9 @@ class OrderlistContainer extends StatelessWidget {
                 padding: const EdgeInsets.only(left: 15),
                 child: Column(
                   children: [
+                    SizedBox(
+                      height: 5.h,
+                    ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -122,7 +125,7 @@ class OrderlistContainer extends StatelessWidget {
                       ],
                     ),
                     SizedBox(
-                      height: 6.h,
+                      height: 7.h,
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.start,
@@ -142,7 +145,7 @@ class OrderlistContainer extends StatelessWidget {
                       ],
                     ),
                     SizedBox(
-                      height: 6.h,
+                      height: 7.h,
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -170,7 +173,7 @@ class OrderlistContainer extends StatelessWidget {
                       ],
                     ),
                     SizedBox(
-                      height: 6.h,
+                      height: 7.h,
                     ),
                     Row(
                       children: [

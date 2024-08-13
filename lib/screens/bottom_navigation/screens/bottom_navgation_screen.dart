@@ -24,7 +24,6 @@ class BottomNavigationScreen extends StatelessWidget {
   // var cartController = Get.put(CartController());
   //  Get.put(CustomBottomNavigationBarController());
 
- 
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
@@ -95,7 +94,6 @@ class BottomNavigationScreen extends StatelessWidget {
           body: controller.pagesForBusiness[controller.selectedIndex.value],
           drawer: CustomDrawer(),
           bottomNavigationBar: _customNavigationBarBusiness(),
-         
 
           // floatingActionButtonLocation:
           //     FloatingActionButtonLocation.centerDocked,
@@ -111,7 +109,7 @@ class BottomNavigationScreen extends StatelessWidget {
   Widget _customNavigationBarBusiness() {
     return Container(
       height: 75.h,
-      decoration: ShapeDecoration(
+      decoration: const ShapeDecoration(
         color: AppColors.WHITE_COLOR,
         shape: RoundedRectangleBorder(
           side: BorderSide(
