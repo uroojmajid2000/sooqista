@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:sooqista_app/screens/categories/screens/categories_container.dart';
 import 'package:sooqista_app/screens/categories/screens/product_container.dart';
+import 'package:sooqista_app/screens/categories/screens/selectable_chips.dart';
 import 'package:sooqista_app/utills/app_colors.dart';
 import 'package:sooqista_app/utills/app_fonts.dart';
 import 'package:sooqista_app/utills/app_navigation.dart';
@@ -26,7 +27,7 @@ class _CategoryScreenState extends State<CategoryScreen>
     'Price(High to Low)',
   ];
   String? selectedValue;
-
+  String selectedCategory = 'T-Shirts';
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -154,6 +155,49 @@ class _CategoryScreenState extends State<CategoryScreen>
             //     },
             //   ),
             // ),
+
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                SelectableButton(
+                  text: 'T-Shirts',
+                  isSelected: selectedCategory == 'T-Shirts',
+                  onTap: () {
+                    setState(() {
+                      selectedCategory = 'T-Shirts';
+                    });
+                  },
+                ),
+                SelectableButton(
+                  text: 'Jeans',
+                  isSelected: selectedCategory == 'Jeans',
+                  onTap: () {
+                    setState(() {
+                      selectedCategory = 'Jeans';
+                    });
+                  },
+                ),
+                SelectableButton(
+                  text: 'Shoes',
+                  isSelected: selectedCategory == 'Shoes',
+                  onTap: () {
+                    setState(() {
+                      selectedCategory = 'Shoes';
+                    });
+                  },
+                ),
+                SelectableButton(
+                  text: 'Jackets',
+                  isSelected: selectedCategory == 'Jackets',
+                  onTap: () {
+                    setState(() {
+                      selectedCategory = 'Jackets';
+                    });
+                  },
+                ),
+              ],
+            ),
+
             SizedBox(
               height: 25.h,
             ),
